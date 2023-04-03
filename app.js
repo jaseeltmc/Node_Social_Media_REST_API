@@ -35,6 +35,9 @@ app.use('/api/users',userRouter);
 const authRouter = require('./routes/authRouters');
 app.use('/api/auth',authRouter);
 
+const postRouter = require('./routes/postsRouters')
+app.use('/api/posts',postRouter)
+
 
 
 

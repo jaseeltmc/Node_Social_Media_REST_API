@@ -18,6 +18,8 @@ user_route.put("/:id/follow",userController.followUser)
 //unfollow a user
 user_route.put("/:id/unfollow",userController.unfollowUser)
 
+
+
 //Login
 // user_route.post("/login",userController.login)
 module.exports = user_route;
